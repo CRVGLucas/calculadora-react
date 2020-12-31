@@ -1,0 +1,26 @@
+.botao {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background: black;
+    border: 1px solid #222;
+    padding: 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+.operador {
+    color: gray;
+    background: #111;
+}
+
+.duplo {
+    grid-column: span 2;
+}
+
+.botao:active , .operador:active{
+    background: #222222;
+}
+
+
+
